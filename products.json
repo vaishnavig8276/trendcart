@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Black Hoodie",
+    "price": 1499,
+    "category": "Men",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+  },
+  {
+    "id": 2,
+    "name": "White Sneakers",
+    "price": 2499,
+    "category": "Men",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
+  },
+  {
+    "id": 3,
+    "name": "Oversized T-Shirt",
+    "price": 999,
+    "category": "Women",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+  },
+  {
+    "id": 4,
+    "name": "Blue Denim Jacket",
+    "price": 2199,
+    "category": "Men",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=500"
+  },
+  {
+    "id": 5,
+    "name": "Classic Cap",
+    "price": 599,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=500"
+  },
+  {
+    "id": 6,
+    "name": "Leather Backpack",
+    "price": 1899,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500"
+  },
+  {
+    "id": 7,
+    "name": "Women Summer Dress",
+    "price": 1799,
+    "category": "Women",
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500"
+  },
+  {
+    "id": 8,
+    "name": "Cargo Pants",
+    "price": 1399,
+    "category": "Men",
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500"
+  },
+  {
+    "id": 9,
+    "name": "Sports Watch",
+    "price": 2999,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500"
+  },
+  {
+    "id": 10,
+    "name": "Women Handbag",
+    "price": 1599,
+    "category": "Women",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500"
+  },
+  {
+    "id": 11,
+    "name": "Printed Shirt",
+    "price": 1299,
+    "category": "Men",
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+  },
+  {
+    "id": 12,
+    "name": "Smart Sunglasses",
+    "price": 899,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500"
+  }
+]

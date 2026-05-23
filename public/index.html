@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrendCart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <header>
+
+    <h1>TrendCart</h1>
+
+    <div class="filters">
+      <button onclick="filterProducts('All')">All</button>
+      <button onclick="filterProducts('Men')">Men</button>
+      <button onclick="filterProducts('Women')">Women</button>
+      <button onclick="filterProducts('Accessories')">Accessories</button>
+    </div>
+
+    <div class="cart-icon">
+      🛒 Cart: <span id="cart-count">0</span>
+    </div>
+    <input 
+    type="text" 
+   id="searchInput"
+   placeholder="Search products..."
+   onkeyup="searchProducts()"
+/>
+
+  </header>
+
+  <main>
+
+    <div id="products-container"></div>
+
+    <div class="cart-section">
+
+      <h2>Shopping Cart</h2>
+
+      <div id="cart-items"></div>
+
+      <h3>Total: ₹<span id="cart-total">0</span></h3>
+
+      <button class="checkout-btn" onclick="checkout()">
+  Checkout
+</button>
+
+    </div>
+
+  </main>
+
+ 
+<!-- PRODUCT MODAL -->
+
+<div id="productModal" class="modal">
+
+  <div class="modal-content">
+
+    <span class="close-btn" onclick="closeModal(&times;)">
+        &times;
+    </span>
+
+    <img id="modalImage" />
+
+    <h2 id="modalTitle"></h2>
+
+    <p id="modalPrice"></p>
+
+    <p id="modalCategory"></p>
+
+    <button id="modalCartBtn">
+      Add To Cart
+    </button>
+
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
