@@ -17,8 +17,7 @@
 
 This project demonstrates a complete web development workflow—from a responsive frontend interface to a functional Node.js server handling data.
 
-*(📸 Tip: Add a screenshot of your website here!)*
-> `<img src="path-to-your-image.png" alt="TrendCart Screenshot" width="100%">`
+
 
 ---
 
